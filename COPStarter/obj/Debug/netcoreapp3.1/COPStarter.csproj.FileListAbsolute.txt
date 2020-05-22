@@ -1,0 +1,9 @@
+c:\code\COPStarter\COPStarter\bin\Debug\netcoreapp3.1\COPStarter.deps.json
+c:\code\COPStarter\COPStarter\bin\Debug\netcoreapp3.1\COPStarter.dll
+c:\code\COPStarter\COPStarter\bin\Debug\netcoreapp3.1\COPStarter.pdb
+c:\code\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.csprojAssemblyReference.cache
+c:\code\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.csproj.CoreCompileInputs.cache
+c:\code\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.AssemblyInfoInputs.cache
+c:\code\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.AssemblyInfo.cs
+c:\code\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.dll
+c:\code\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.pdb
