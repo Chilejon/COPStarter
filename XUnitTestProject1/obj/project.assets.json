@@ -6534,11 +6534,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\code\\COPStarter\\XUnitTestProject1\\XUnitTestProject1.csproj",
+      "projectUniqueName": "C:\\code\\COPStarter\\XUnitTestProject1\\XUnitTestProject1.csproj",
       "projectName": "XUnitTestProject1",
-      "projectPath": "c:\\code\\COPStarter\\XUnitTestProject1\\XUnitTestProject1.csproj",
+      "projectPath": "C:\\code\\COPStarter\\XUnitTestProject1\\XUnitTestProject1.csproj",
       "packagesPath": "C:\\Users\\JonC\\.nuget\\packages\\",
-      "outputPath": "c:\\code\\COPStarter\\XUnitTestProject1\\obj\\",
+      "outputPath": "C:\\code\\COPStarter\\XUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6557,8 +6557,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "c:\\code\\COPStarter\\COPStarter\\COPStarter.csproj": {
-              "projectPath": "c:\\code\\COPStarter\\COPStarter\\COPStarter.csproj"
+            "C:\\code\\COPStarter\\COPStarter\\COPStarter.csproj": {
+              "projectPath": "C:\\code\\COPStarter\\COPStarter\\COPStarter.csproj"
             }
           }
         }

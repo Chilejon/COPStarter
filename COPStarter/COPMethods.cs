@@ -16,7 +16,7 @@ namespace COPStarter
 
 			foreach (var item in Sentence)
 			{
-				if(item.ToString() == "a" || item.ToString() == "e" || item.ToString() == "i" ||  item.ToString() == "o" || item.ToString() == "u" )
+				if (item.ToString() == "a" || item.ToString() == "e" || item.ToString() == "i" || item.ToString() == "o" || item.ToString() == "u")
 				{
 					vowelCount = vowelCount + 1;
 				}
@@ -50,5 +50,30 @@ namespace COPStarter
 				return false;
 			}
 		}
+
+		public string convertLyrics(string fullLyrics)
+		{
+			string[] arrayOfLyrics = fullLyrics.Split(" ");
+
+			string justTheFirst = "";
+
+			foreach (var word in arrayOfLyrics)
+			{
+				if (!string.IsNullOrEmpty(word))
+				{
+					justTheFirst += word.ToUpper().Substring(0, 1) + " ";
+				}
+			}
+
+			return justTheFirst.Trim();
+		}
+
+
+
+
+
+
+
+
 	}
 }

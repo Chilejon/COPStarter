@@ -58,5 +58,20 @@ namespace XUnitTestProject1
 
 			Assert.Equal(outcome, result);
 		}
+
+		[Theory]
+		[InlineData("When i wish upon a star", "W I W U A S")]
+		[InlineData("Today is gonna be the day That they're gonna throw it back to you By now you should've somehow Realized what you gotta do I don't believe that anybody Feels the way I do, about you now", "")]
+		public void lyric_first_letters(string fullLyrics, string limitedLyrics)
+		{
+			string output = cs.convertLyrics(fullLyrics);
+
+			Assert.Equal(limitedLyrics, output);
+		}
+
+
+
+
+
 	}
 }

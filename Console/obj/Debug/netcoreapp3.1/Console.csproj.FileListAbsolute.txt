@@ -1,0 +1,16 @@
+C:\code\COPStarter\Console\bin\Debug\netcoreapp3.1\Console.exe
+C:\code\COPStarter\Console\bin\Debug\netcoreapp3.1\Console.deps.json
+C:\code\COPStarter\Console\bin\Debug\netcoreapp3.1\Console.runtimeconfig.json
+C:\code\COPStarter\Console\bin\Debug\netcoreapp3.1\Console.runtimeconfig.dev.json
+C:\code\COPStarter\Console\bin\Debug\netcoreapp3.1\Console.dll
+C:\code\COPStarter\Console\bin\Debug\netcoreapp3.1\Console.pdb
+C:\code\COPStarter\Console\bin\Debug\netcoreapp3.1\COPStarter.dll
+C:\code\COPStarter\Console\bin\Debug\netcoreapp3.1\COPStarter.pdb
+C:\code\COPStarter\Console\obj\Debug\netcoreapp3.1\Console.csproj.CoreCompileInputs.cache
+C:\code\COPStarter\Console\obj\Debug\netcoreapp3.1\Console.AssemblyInfoInputs.cache
+C:\code\COPStarter\Console\obj\Debug\netcoreapp3.1\Console.AssemblyInfo.cs
+C:\code\COPStarter\Console\obj\Debug\netcoreapp3.1\Console.csproj.CopyComplete
+C:\code\COPStarter\Console\obj\Debug\netcoreapp3.1\Console.dll
+C:\code\COPStarter\Console\obj\Debug\netcoreapp3.1\Console.pdb
+C:\code\COPStarter\Console\obj\Debug\netcoreapp3.1\Console.genruntimeconfig.cache
+C:\code\COPStarter\Console\obj\Debug\netcoreapp3.1\Console.csprojAssemblyReference.cache

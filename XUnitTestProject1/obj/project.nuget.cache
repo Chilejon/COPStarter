@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DXGFdkwoHjvsgtmqlGs3bW4pHaxqQEcY1mY00jtTutxyrha/pyFfW9BgP8EOqtG0VewzrPuWkaNTbdo1XjBM8w==",
+  "dgSpecHash": "Erk0u/v18V9n0B32JdZ9UMvBI9pykGlg1rxzkFbBMIvIhMbnZ6HBSYrEhrXJw/qRuljFwIkUxNcjsNqyQLlptA==",
   "success": true,
-  "projectFilePath": "c:\\code\\COPStarter\\XUnitTestProject1\\XUnitTestProject1.csproj",
+  "projectFilePath": "C:\\code\\COPStarter\\XUnitTestProject1\\XUnitTestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JonC\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\JonC\\.nuget\\packages\\microsoft.codecoverage\\16.2.0\\microsoft.codecoverage.16.2.0.nupkg.sha512",
