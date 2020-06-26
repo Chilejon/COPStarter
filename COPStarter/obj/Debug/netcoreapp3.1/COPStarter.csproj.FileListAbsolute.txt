@@ -7,3 +7,12 @@ c:\code\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.AssemblyInfoInp
 c:\code\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.AssemblyInfo.cs
 c:\code\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.dll
 c:\code\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.pdb
+C:\COPStarter\COPStarter\bin\Debug\netcoreapp3.1\COPStarter.deps.json
+C:\COPStarter\COPStarter\bin\Debug\netcoreapp3.1\COPStarter.dll
+C:\COPStarter\COPStarter\bin\Debug\netcoreapp3.1\COPStarter.pdb
+C:\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.csprojAssemblyReference.cache
+C:\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.csproj.CoreCompileInputs.cache
+C:\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.AssemblyInfoInputs.cache
+C:\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.AssemblyInfo.cs
+C:\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.dll
+C:\COPStarter\COPStarter\obj\Debug\netcoreapp3.1\COPStarter.pdb

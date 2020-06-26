@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gV5jn3Gic/mUxWo1CRV37PG5rj5y35sRVSDc1KYGfrcSEfcSDaNf6/9kRD4SChnbxrM82Su8b2J6St4vSEEJKA==",
+  "dgSpecHash": "X7dKDPRkMLgtLmTXW+KD7KXcvYAiCL1E3zmBaLVBWRLoKgE+3V+y17AofUfpMKluaNJ2wPwZyshcahxL3wMhAA==",
   "success": true,
-  "projectFilePath": "c:\\code\\COPStarter\\COPStarter\\COPStarter.csproj",
+  "projectFilePath": "C:\\COPStarter\\COPStarter\\COPStarter.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
