@@ -85,7 +85,7 @@ namespace XUnitTestProject1
 		// A pair of strings is a strange pair if both are the following are true:
 		// 1) The 1st string's first letter = 2nd string's last letter
 		// 2) The 1st string's last letter = 2nd string's first letter
-		// Return true is it is a strange pair - E.g. ("ratio", "orator") => true
+		// Return true if it is a strange pair - E.g. ("ratio", "orator") => true
 		// Return false if it is not a strange pair - E.g. ("bush", "hubris") => false
 		// It should work on a pair of empty strings 
 		[Theory]
