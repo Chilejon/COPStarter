@@ -7,26 +7,7 @@ namespace XUnitTestProject1
 	{
 		COPMethods cs = new COPMethods();
 
-		// Challenge 1 - Slice of Pie
-		// You need to create a function that determines whether or not it's possible to split a pie fairly given 3 parameters
-		// Paramters are Total number of slices, number of recipients, how many slices each person gets
-		// Return true if slices can be distributed evenly - E.g. (11, 5, 2) => true 
-		// Return false if slices cannot be distributed evenly - E.g. (11, 5, 3) => false
-		// Return true if there are zero people
-		[Theory]
-		[InlineData(10, 5, 2, true)]
-		[InlineData(100, 5, 2, true)]
-		[InlineData(10, 9, 2, false)]
-		[InlineData(4, 3, 2, false)]
-		[InlineData(4, 0, 2, true)]
-		public void Slice_Of_Pie(int totalSlices, int numberOfRecipients, int slicesEach, bool outcome)
-		{
-			bool result = cs.SliceOfPie(totalSlices, numberOfRecipients, slicesEach);
-
-			Assert.Equal(outcome, result);
-		}
-
-		// Challenge 2 - Shuffle the name
+		// Challenge 1 - Shuffle the name
 		// You need to create a function that takes a string (of a person's first and last name)
 		// Return the string with first and last name swapped 
 		// E.g. "Ruha Bashir" => "Bashir Ruha"
@@ -43,7 +24,7 @@ namespace XUnitTestProject1
 			Assert.Equal(answer, result);
 		}
 
-		// Challenge 3 - Count Syllables
+		// Challenge 2 - Count Syllables
 		// You need to create a function that counts the number of syllables a word has
 		// Each syllable is separated with a dash -
 		// Syllable is a word separated by dash -
@@ -61,7 +42,7 @@ namespace XUnitTestProject1
 			Assert.Equal(answer, result);
 		}
 
-		// Challenge 4 - Xs and Os, Nobody Knows 
+		// Challenge 3 - Xs and Os, Nobody Knows 
 		// You need to create a function that takes a string and checks if it has same number of x's and o's
 		// Return true if same number E.g. ("ooxx") => true
 		// Return false if not same number E.g. ("xooxx") => false
@@ -78,6 +59,22 @@ namespace XUnitTestProject1
 			var result = cs.XsAndOs(xAndO);
 
 			Assert.Equal(answer, result);
+		}
+
+		// Challenge 4 - Positive Count / Negative Sum
+		// Create a function that takes an array of positive and negative numbers
+		// Return an array where the first element is the count of positive numbers and the second element is the sum of negative numbers
+		// 0 is not positive
+		[Theory]
+		[InlineData(new double[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15 }, new[] { 10, -65 })]
+		[InlineData(new double[] { 92, 6, 73, -77, 81, -90, 99, 8, -85, 34 }, new[] { 7, -252 })]
+		[InlineData(new double[] { 91, -4, 80, -73, -28 }, new[] { 2, -105 })]
+
+		public void Count_Positive_Negative(double[] numbers, int[] answers)
+		{
+			var result = cs.CountPositiveNegative(numbers);
+
+			Assert.Equal(answers, result);
 		}
 
 		// Challenge 5 - Strange pair

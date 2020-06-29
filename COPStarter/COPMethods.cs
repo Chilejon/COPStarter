@@ -8,25 +8,6 @@ namespace COPStarter
 {
 	public class COPMethods
 	{
-		public bool SliceOfPie(int totalSlices, int numberOfRecipients, int slicesEach)
-		{
-			try
-			{
-				if ((numberOfRecipients * slicesEach) <= totalSlices)
-				{
-					return true;
-				}
-				else
-				{
-					return false;
-				}
-			}
-			catch (Exception)
-			{
-				return false;
-			}
-		}
-
 		public string ShuffleTheName(string firstNameAndLastName)
 		{
 			string[] result = firstNameAndLastName.Split(' ');
@@ -52,6 +33,14 @@ namespace COPStarter
 			return false;
 		}
 
+		public int[] CountPositiveNegative(double[] numbers)
+		{
+			int[] arrs = Array.ConvertAll(numbers, Convert.ToInt32);
+			return new int[] {
+				arrs.Where(d => d > 0).Count(),
+				arrs.Where(d => d< 0).Sum()
+			};
+		}
 		public bool StrangePair(string one, string two)
 		{
 			if (string.IsNullOrEmpty(one) || string.IsNullOrEmpty(two))
