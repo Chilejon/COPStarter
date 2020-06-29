@@ -4,10 +4,6 @@ namespace COPStarter
 {
 	public class COPMethods
 	{
-		public bool SliceOfPie(int totalSlices, int numberOfRecipients, int slicesEach)
-		{
-			throw new NotImplementedException();
-		}
 		public string ShuffleTheName(string firstNameAndLastName)
 		{
 			throw new NotImplementedException();
@@ -19,6 +15,11 @@ namespace COPStarter
 		}
 
 		public bool XsAndOs(string xAndO)
+		{
+			throw new NotImplementedException();
+		}
+
+		public int[] CountPositiveNegative(double[] numbers)
 		{
 			throw new NotImplementedException();
 		}
