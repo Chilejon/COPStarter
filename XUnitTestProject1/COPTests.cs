@@ -71,7 +71,7 @@ namespace XUnitTestProject1
 		[InlineData(new double[] { 92, 6, 73, -77, 81, -90, 99, 8, -85, 34 }, new[] { 7, -252 })]
 		[InlineData(new double[] { 91, -4, 80, -73, -28 }, new[] { 2, -105 })]
 
-		public void Count_Positive_Negative(double[] numbers, int[] answers)
+		public void Count_Positive_Negative(double [] numbers, int [] answers)
 		{
 			var result = cs.CountPositiveNegative(numbers);
 
@@ -120,11 +120,11 @@ namespace XUnitTestProject1
 		// If array is empty then return empty array
 		// If there are multiple items with the same value, remove item with lower index E.g. ([2, 2, 1, 2, 1]) => [2, 2, 2, 1]
 		[Theory]
-		[InlineData(new[] { 1, 2, 3, 4, 5 }, new[] { 2, 3, 4, 5 })]
+		[InlineData(new[] { 1, 2, 3, 4, 5 }, new[] {2, 3, 4, 5})]
 		[InlineData(new[] { 5, 3, 2, 1, 4 }, new[] { 5, 3, 2, 4 })]
 		[InlineData(new[] { 2, 2, 1, 2, 1 }, new[] { 2, 2, 2, 1 })]
 		[InlineData(new[] { 1, 2, 3, 4, 5, 6 }, new[] { 2, 3, 4, 5, 6 })]
-		public void Remove_Lowest(int[] array, int[] answer)
+		public void Remove_Lowest(int [] array, int [] answer)
 		{
 			var result = cs.RemoveLowest(array);
 
